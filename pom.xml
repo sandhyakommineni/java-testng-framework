@@ -6,6 +6,11 @@
 	<artifactId>Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<maven.compiler.source>1.15</maven.compiler.source>
+		<maven.compiler.target>1.15</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -36,6 +41,8 @@
 			<artifactId>poi</artifactId>
 			<version>3.17</version>
 		</dependency>
+
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
